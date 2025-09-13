@@ -170,13 +170,6 @@ int main(void)
       sprintf(out, "Time_5: %s\n", time);
       HAL_UART_Transmit(&hcom_uart[COM1], out, strlen(out), HAL_MAX_DELAY);
 
-      for (int i = 0; i < 1000; i++)
-      {
-        for (int j = 0; j < 2000; j++)
-        {
-        }
-      }
-
       // end job
       cpu_job_end(&ctime);
     }

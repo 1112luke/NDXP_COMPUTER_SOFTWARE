@@ -2,6 +2,8 @@
 #include "stm32h7xx_hal.h"
 #include <stdint.h>
 
+/*TODO: add functionality for multiple jobs, summed as a whole at the end with option to print duration of each*/
+
 void cpu_timer_init(CPU_TIMER *timer)
 {
 
