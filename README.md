@@ -81,3 +81,4 @@ Once that is done, your code should be pushed to this repository! The final step
 
 
 ### RULE OF THUMB!!
+In general, commits to github should be <b>small</b> and <b>frequent</b>! This ensures that everybody is working with the most up to date version of the code!
